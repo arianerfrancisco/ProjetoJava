@@ -1,0 +1,4 @@
+Polimorfismo= Usar um conceito genérico com atributos especificos.
+Podemos criar uma  classe animal e partir dele criar mamifero,depois cachorro. Precisa ocorrer comportamento de herança
+Abstração= simplificar o mundo real para modelar o codigo
+encapsulamento = alguns comportamentos do codigo  estão privados,não visiveis ao usuario

@@ -1,0 +1,5 @@
+// criar um metodo de quanto de dinheiro esse cliente gastou
+    // pega todas as compras que ele fez
+    // dentro das compras percorrer por todos os itens
+    // dentro de item terá a quantidade
+    // criar um cliente e duas compras com 2 itens cada
