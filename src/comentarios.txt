@@ -2,3 +2,8 @@ Polimorfismo= Usar um conceito genérico com atributos especificos.
 Podemos criar uma  classe animal e partir dele criar mamifero,depois cachorro. Precisa ocorrer comportamento de herança
 Abstração= simplificar o mundo real para modelar o codigo
 encapsulamento = alguns comportamentos do codigo  estão privados,não visiveis ao usuario
+
+PRIVATE: ATRIBUITO DISPONIVEL APENAS NO ESCOPO DA CLASSE
+PUBLIC: SEM RESTRIÇÃO
+PACKAGE (DEFAULT) : QUANDO UM ATRIBUTO É DEFINIDO DENTRO DE UM PACOTE, O MESMO SÓ PODE SER ACESSADO POR OUTROS DESTE LOCALIZAÇÕES
+PROTECTED : DEPENDE DA HERANÇA. SÓ ACESSARÁ OUTRO ATRIBUTE, DESDE QUE SEJA HERDADO.
