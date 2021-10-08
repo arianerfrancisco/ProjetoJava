@@ -1,4 +1,25 @@
 Polimorfismo= Usar um conceito genérico com atributos especificos.
 Podemos criar uma  classe animal e partir dele criar mamifero,depois cachorro. Precisa ocorrer comportamento de herança
 Abstração= simplificar o mundo real para modelar o codigo
-encapsulamento = alguns comportamentos do codigo  estão privados,não visiveis ao usuario
+
+_____
+1º PILAR >> ENCAPSULAMENTO = alguns comportamentos do codigo  estão privados,não visiveis ao usuario
+PRIVATE: ATRIBUITO DISPONIVEL APENAS NO ESCOPO DA CLASSE
+PUBLIC: SEM RESTRIÇÃO
+PACKAGE (DEFAULT) : QUANDO UM ATRIBUTO É DEFINIDO DENTRO DE UM PACOTE, O MESMO SÓ PODE SER ACESSADO POR OUTROS DESTE LOCALIZAÇÕES
+                QUANDO NENHUMA FORMA DE VISIBILIDADE FOR DEFINIDA, AUTOMATICAMENTE ASSUMIRÁ COMO PACOTE.
+PROTECTED : DEPENDE DA HERANÇA. SÓ ACESSARÁ OUTRO ATRIBUTE, DESDE QUE SEJA HERDADO.
+____
+
+2º PILAR >>>>  HERANÇA: RECEBE POR PADRÃO ATRIBUTOS E COMPORTAMENTOS DA CLASSE PAI
+>> Utiliza a palavra reservada extends
+>> NO REUSO DE UM CÓDIGO: O COMPORTAMENTO POR COMPOSIÇÃO É MAI FLEXÍVEL QUE HERANÇA.
+
+-----
+3º PILAR >>>>  POLIMORFISMO:
+ESTÁTICO: Sobrecarga > Quando temos métodos com nomes iguais, porém com parametros diferentes. Sentido: sobrecarga do nome
+
+DINÂMICO: A partir da herança temos o poliformismo dinamico.
+
+________________________________
+4º PILAR >>>>ABSTRAÇÃO: SIMPLIFICAÇÃO CONCEITOS DO MUNDO REAL E MODELAR NO SOFTWARE

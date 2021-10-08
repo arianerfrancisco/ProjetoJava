@@ -20,3 +20,6 @@ ____
 ESTÁTICO: Sobrecarga > Quando temos métodos com nomes iguais, porém com parametros diferentes. Sentido: sobrecarga do nome
 
 DINÂMICO: A partir da herança temos o poliformismo dinamico.
+
+________________________________
+4º PILAR >>>>ABSTRAÇÃO: SIMPLIFICAÇÃO CONCEITOS DO MUNDO REAL E MODELAR NO SOFTWARE

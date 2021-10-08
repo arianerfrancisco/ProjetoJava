@@ -1,0 +1,6 @@
+Criar uma classe carro generica e mais dois carros de modelos especificos.
+Ex: extends ferrari .. extends civic
+Na classe generica o carro tem um atribute de  velocidade atual
+e metodo de acelerar/frear
+obs: frear, mas de tal forma que a velocidade nunca seja menor que zero
+na ferrari precisa acelarar de 15 em 15 e não de 5 no carro generico
