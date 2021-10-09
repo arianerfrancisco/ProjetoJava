@@ -19,8 +19,8 @@ public class Jogo {
         System.out.println(monstro.vida);
         System.out.println(heroi.vida);
 
-        monstro.andar(Direcao.NORTE); // como ele se afastou o heroi não vai conseguir
-        monstro.atacar(heroi);
+        monstro.andar(Direcao.NORTE); // como ele se afastou o heroi
+        monstro.atacar(heroi); // não vai conseguir atacar
         heroi.atacar(monstro);
 
         System.out.println(monstro.vida);
