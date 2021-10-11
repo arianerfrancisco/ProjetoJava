@@ -55,4 +55,22 @@ NomeDaClasseHerdada(){
 super(0,0) // aqui já define-se um valor inicial para as posicões x e y
 }
 ----------
-
+Anotação @Override ao resgate!
+Ela simplesmente informa ao compilador que a intenção seria de sobrescrever. Dessa forma,
+o compilador pode avaliar se a assinatura está coerente com algum método das superclasses e
+emite um aviso caso o método não esteja realmente sobrescrevendo algo!
+----------
+INTERFACE
+por padrão todos os metodos serão publicos e abstratos
+metodos abstract são aqueles que nao tem corpo definido, apenas a chamada
+Exemplo: void ligarTurbo();
+assim public abstract ficarão de modo implicito
+_____
+CLASSE ABSTRAÇÃO
+No momento que criamos: public abstract classe Pessoa{
+}
+ a partir do momento que utilizamos a palavra abstract, essa classe não poderá mais ser instanciada
+ >> criamos uma classe assim quando desejamos herdá-la
+ ________________________________
+ LAMBDA:
+ Calculo calculo = (x,y) -> {return x + y; };
