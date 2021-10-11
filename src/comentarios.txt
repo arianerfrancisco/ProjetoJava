@@ -23,3 +23,36 @@ DINÂMICO: A partir da herança temos o poliformismo dinamico.
 
 ________________________________
 4º PILAR >>>>ABSTRAÇÃO: SIMPLIFICAÇÃO CONCEITOS DO MUNDO REAL E MODELAR NO SOFTWARE
+
+________________________________
+-- invocar construtor da classe atual> this.atributoOuMetodo
+-- invocar construtor da classe pai> super.atributoOuMetodo
+---------------------------
+CONSTRUTORES PADRÕES NUMA ESTRUTURA DE HERANÇA
+>>> NO JAVA POR REGRA AS CLASSES POSSUEM CONSTRUTORES PADRÕES, QUE Podemos
+SER CHAMADOS POR SEUS FILHOS ATRAVÉS DA PALAVRA SUPER
+CONTRUTOR PADRÃO> SÃO AQUELES QUE NÃO RECEBEM NENHUM PARAMETRO
+
+EXEMPLO DE CONSTRUTOR EXPLICITO (NÃO MAIS PADRÃO)
+
+NomeDaClasse(int x, int y) { // obrigatoriamente precisa ser definido esses parametros
+this.x=x;
+this.y=y
+}
+Para que as classes herdadas possa chamar esse atributo agora definido de forma explicita
+
+Agora de a classe herdada precisará definir, neste caso os parametros de x e y
+Abaixo é uma das formas de se resolver essa questão
+
+> Aqui os valores são definidos pelo usuário
+NomeDaClasseHerdada(intx, int y){
+super(x,y)
+}
+
+ou
+>> Aqui os valores são fixos
+NomeDaClasseHerdada(){
+super(0,0) // aqui já define-se um valor inicial para as posicões x e y
+}
+
+
