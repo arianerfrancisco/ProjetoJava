@@ -79,3 +79,22 @@ ________________________________
 Os métodos static ou métodos da classe são funções que não dependem de nenhuma variável de instância,
  quando invocados executam uma função sem a dependência do conteúdo de um objeto ou a execução da instância de uma
  classe, conseguindo chamar direto qualquer método da classe e também manipulando alguns campos da classe.
+ _________________________________________________________
+ INTERFACES FUNCIONAIS
+ BinaryOperator >> Recebe dois argumentos para gerar um resultado. >>>> AQUI NÃO PRECISARIAMOS CRIAR UMA INTERFACE
+ -----
+ CRIAR CONSTRUTORES AUTOMATICOS
+ botão direita em qualquer lugar do código> generate> Constructor
+ _____
+
+ INTERFACE Predicate
+ Predicate, que é uma interface, que espera uma função logica, isto é, que avalia uma expressão booleana,
+ e retorna true ou false. Essa função é executada chamando o método test, que executará a função passada como
+ parâmetro. Ao ser avaliada, se essa função retornar verdadeiro, imprime o valor da lista, caso contrário,
+  não imprime nada.
+
+  ________________________________________________________
+  LAMBDAS
+  As expressões lambdas são funções que podem conter expressões e declarações que são usadas para criar delegates
+  e árvores de expressões onde o tipo das variáveis não precisam ser declarados visto que elas usam métodos anônimos.
+  ...  Elas podem ser consideradas uma forma de delegate que pode passar ou retornar outra função.

@@ -73,4 +73,16 @@ No momento que criamos: public abstract classe Pessoa{
  >> criamos uma classe assim quando desejamos herdá-la
  ________________________________
  LAMBDA:
- Calculo calculo = (x,y) -> {return x + y; };
+ Calculo calculo = (x,y) -> {return x + y; }; >> // NOTA: quando utilizamos o par de chaves> {return x + y; } é obrigatorio o uso da palavra return
+ ou  calc= (x,y) ->  x * y;
+________________________________
+Os métodos static ou métodos da classe são funções que não dependem de nenhuma variável de instância,
+ quando invocados executam uma função sem a dependência do conteúdo de um objeto ou a execução da instância de uma
+ classe, conseguindo chamar direto qualquer método da classe e também manipulando alguns campos da classe.
+ _________________________________________________________
+ INTERFACES FUNCIONAIS
+ BinaryOperator >> Recebe dois argumentos para gerar um resultado. >>>> AQUI NÃO PRECISARIAMOS CRIAR UMA INTERFACE
+ -----
+ CRIAR CONSTRUTORES AUTOMATICOS
+ botão direita em qualquer lugar do código> generate> Constructor
+ _____
