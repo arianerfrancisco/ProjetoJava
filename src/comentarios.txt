@@ -55,4 +55,8 @@ NomeDaClasseHerdada(){
 super(0,0) // aqui já define-se um valor inicial para as posicões x e y
 }
 ----------
-
+Anotação @Override ao resgate!
+Ela simplesmente informa ao compilador que a intenção seria de sobrescrever. Dessa forma,
+o compilador pode avaliar se a assinatura está coerente com algum método das superclasses e
+emite um aviso caso o método não esteja realmente sobrescrevendo algo!
+----------
