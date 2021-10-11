@@ -1,4 +1,8 @@
-package exercicios.colecoes.oo.heranca;
+package exercicios.colecoes.oo.heranca.teste;
+
+import exercicios.colecoes.oo.heranca.Direcao;
+import exercicios.colecoes.oo.heranca.Heroi;
+import exercicios.colecoes.oo.heranca.Monstro;
 
 public class Jogo {
     public static void main(String[] args) {

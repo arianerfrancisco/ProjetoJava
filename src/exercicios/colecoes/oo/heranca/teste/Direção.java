@@ -1,4 +1,7 @@
-package exercicios.colecoes.oo.heranca.desafio;
+package exercicios.colecoes.oo.heranca.teste;
+
+import exercicios.colecoes.oo.heranca.desafio.Civic;
+import exercicios.colecoes.oo.heranca.desafio.Ferrari;
 
 public class Direção {
     public static void main(String[] args) {

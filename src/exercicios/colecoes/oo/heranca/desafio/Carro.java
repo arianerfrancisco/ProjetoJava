@@ -9,7 +9,7 @@ public class Carro {
         VELOCIDADE_MAXIMA = velocidademaxima;
     }
 
-    void acelerar() { // quando utiliza void não precisa colocar return
+    public void acelerar() { // quando utiliza void não precisa colocar return
         if (velocidadeAtual + 5 > VELOCIDADE_MAXIMA) {
             velocidadeAtual = VELOCIDADE_MAXIMA;
         } else {
@@ -17,7 +17,7 @@ public class Carro {
         }
     }
 
-    void frear() {
+    public void frear() {
         if (velocidadeAtual >=5) {
             velocidadeAtual -= 5;
         } else {

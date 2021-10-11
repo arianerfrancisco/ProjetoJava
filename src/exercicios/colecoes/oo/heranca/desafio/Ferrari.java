@@ -8,12 +8,11 @@ public class Ferrari extends Carro{
     }
     // ou deixando o usuario definir o parametro de velocidade maxima
 
-    Ferrari(int velocidadeMaxima) {
+    public Ferrari(int velocidadeMaxima) {
         super(velocidadeMaxima);
     }
 
-
-    void acelerar() {
+    public void acelerar() {
         velocidadeAtual += 15;
     }
 }
