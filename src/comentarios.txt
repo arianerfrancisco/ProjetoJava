@@ -98,3 +98,5 @@ Os métodos static ou métodos da classe são funções que não dependem de nen
   As expressões lambdas são funções que podem conter expressões e declarações que são usadas para criar delegates
   e árvores de expressões onde o tipo das variáveis não precisam ser declarados visto que elas usam métodos anônimos.
   ...  Elas podem ser consideradas uma forma de delegate que pode passar ou retornar outra função.
+  _________________________________________________________
+  operacao ternaria>>>  numero -> numero % 2 == 0 ? "Par": "Impar";
