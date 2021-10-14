@@ -4,12 +4,6 @@ import java.util.Locale;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
-
-// calcular o desconto
-//>=2500 : 8,5%  - abaixo isento
-// Frete>3000:100 = abaixo 50
-// Arredondar duas casas decimais
-// Formatar com r$
 public class Desafio {
     public static void main(String[] args) {
 
