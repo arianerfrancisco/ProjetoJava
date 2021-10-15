@@ -8,7 +8,8 @@ import java.util.stream.Stream;
 public class CriandoStreams {
     public static void main(String[] args) {
         // CONSUMER - RECEBE UM PARAMETRO E NAO RETORNA NADA
-       Consumer<String> print = System.out::print;
+       Consumer<Object> print = System.out::print; // tipo object permiti imprimir strings e valores numericos
+        Consumer<Integer> println = System.out::println; // tipo integer
 
        // CRIANDO UM STREAM ATRAVÉS DO MÉTODO ESTATICO STREAM.OF
        Stream<String>  langs = Stream.of(" Java ", " Python ", " PHP\n"); // criando stream
@@ -28,7 +29,10 @@ public class CriandoStreams {
         outrasLangs.parallelStream().forEach(print);
 
         // CRIANDO A PARTIR DO METODO GENERATE
-        Stream.generate(() -> "a").forEach(print); // SUPPLIER - RETORNA SEM TER SIDO PASSADO PARAMETROS
+        //Stream.generate(() -> "a").forEach(print); // SUPPLIER - RETORNA SEM TER SIDO PASSADO PARAMETROS
         // () -> "a" >>> LAMBDA
+        // neste caso, ficará imprimindo o caractere a até parar a execução do programa
+
+        //Stream.iterate(0,n -> n + 1).forEach(print); // irar contar do 0 até o programa parar de ser executado
     }
 }

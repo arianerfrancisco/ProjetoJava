@@ -116,3 +116,5 @@ Os métodos static ou métodos da classe são funções que não dependem de nen
   A proposta em torno da Streams API é reduzir a preocupação do desenvolvedor com a forma de implementar
   controle de fluxo ao lidar com coleções, deixando isso a cargo da API. A ideia é iterar sobre essas coleções de objetos e, a cada elemento, realizar alguma ação,
   seja ela de filtragem, mapeamento, transformação, etc. Caberá ao desenvolvedor apenas definir qual ação será realizada sobre o objeto.
+  ----------------------------------------
+filter: A PARTIR DE CRITÉRIO ( UTILIZANDO LAMBDA) FILTRARÁ OS DADOS. Mais rápido que utilizar o FOR. USA PREDICATO
