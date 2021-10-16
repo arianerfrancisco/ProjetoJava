@@ -118,3 +118,8 @@ Os métodos static ou métodos da classe são funções que não dependem de nen
   seja ela de filtragem, mapeamento, transformação, etc. Caberá ao desenvolvedor apenas definir qual ação será realizada sobre o objeto.
   ----------------------------------------
 filter: A PARTIR DE CRITÉRIO ( UTILIZANDO LAMBDA) FILTRARÁ OS DADOS. Mais rápido que utilizar o FOR. USA PREDICATO
+-------
+map>> mapeamento de um elemento para outro. O resultado irá sair com o mesmo tamanho de inicio.
+------
+reduce>>> ele transforma uma sequencia de dados em um resultado completamente diferentes
+------
