@@ -5,6 +5,7 @@ import java.util.List;
 
 public class OutrosMetodos {
     public static void main(String[] args) {
+        // as operacoes abordadas nesta classe, sõa do tipo intermediarias
         Aluno a1 = new Aluno("Aluno 1", 7.8);
         Aluno a2 = new Aluno("Aluno 1", 7.8);
         Aluno a3 = new Aluno("Aluno 3", 5.8);
