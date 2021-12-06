@@ -123,3 +123,8 @@ map>> mapeamento de um elemento para outro. O resultado irá sair com o mesmo ta
 ------
 reduce>>> ele transforma uma sequencia de dados em um resultado completamente diferentes
 ------
+Tipos de Erros
+Compilação: Estes erros impedem o processo de conveter o arquivo .java com o código fonte e gerar o arquivo .class
+Tempo de execução: o programa já está compilado e o usuário está o utilizando. Ex: Sem acesso ao banco de dados.
+EXECUÇÃO > Throwable: classe com todos os erros. Subdivide-se em: error (mais critico) e execption (execeção a regra).
+PILHA DE MÉTODOS: último elemento a ser inserido, será o primeiro a ser retirado.
